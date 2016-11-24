@@ -5,7 +5,7 @@ Integrasi EasyRTC di ExpressJS dengan study kasus pembuatan Video Call
 - Clone this project:
 ```bash
 $ git clone https://github.com/sutrisna/expressjs-easyrtc.git
-$ cd elasticsearch-expressjs
+$ cd expressjs-easyrtc
 ```
 - Install NPM dependencies:
 ```bash
