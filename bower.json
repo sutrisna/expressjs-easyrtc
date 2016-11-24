@@ -1,0 +1,26 @@
+{
+  "name": "bower-express-1453",
+  "description": "easyrtc video call",
+  "main": "app.js",
+  "authors": [
+    "trisna <punyasutrisna@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "expressjs"
+  ],
+  "homepage": "https://github.com/sutrisna/expressjs-easyrtc",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material": "^1.1.1",
+    "angular-timer": "^1.3.4",
+    "humanize-duration": "^3.9.1",
+    "moment": "momentjs#^2.17.0"
+  }
+}

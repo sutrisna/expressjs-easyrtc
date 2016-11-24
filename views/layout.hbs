@@ -3,10 +3,22 @@
 
 <head>
   <title>{{title}}</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="/angular-material/angular-material.css">
+  <!-- EasyRTC Part -->
   <script src="socket.io/socket.io.js"></script>
   <script type="text/javascript" src="/easyrtc/api/easyrtc.js"></script>
   <script type="text/javascript" src="/javascripts/connection.js"></script>
   <script type="text/javascript" src="/javascripts/videocall.js"></script>
+  <!-- End EasyRTC Part -->
+
+  <!-- Angular Timer Part -->
+    <script src="/angular/angular.js"></script>
+    <script type="text/javascript" src="/angular-timer/dist/angular-timer.min.js"></script>
+    <script type="text/javascript" src="/humanize-duration/humanize-duration.js"></script>
+    <script type="text/javascript" src="/moment/min/moment.min.js"></script>
+    <script type="text/javascript" src="/javascripts/ang-timer.js"></script>
+ <!-- End Angular Timer Part -->
   <style>
     #acceptCallBox {
       display: none;
@@ -21,8 +33,15 @@
   </style>
 </head>
 
-<body onload="connect()">
+<body onload="connect()" ng-app="myApp" ng-controller="MyAppController">
   {{{body}}}
+
+<!-- Angular Material Part -->
+  <script src="/angular-aria/angular-aria.js"></script>
+  <script src="/angular-animate/angular-animate.js"></script>
+  <script src="/angular-material/angular-material.js"></script>
+<!-- End Angular Material Part -->
+
 </body>
 
 </html>
